@@ -1,14 +1,14 @@
 ###Get
-GET http://localhost:3000/messages
+GET http://localhost:3003/messages
 
-###Create
-POST http://localhost:3000/messages
+### Create a new message
+POST http://localhost:3003/messages
 content-type: application/json
 
 {
-  "content" : "hi there",
+  "content": "asdf"
 }
 
 ###Get a message
-GET http://localhost:3000/messages/123
+GET http://localhost:3003/messages/2080
 
